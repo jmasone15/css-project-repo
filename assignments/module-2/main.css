@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: inline-block;
+}
+
+.box {
+    padding: 10px 5px 20px 8px;
+    border: 5px solid steelblue;
+    margin: 10px 5px 20px 8px;
+    display: inherit;
+}
+
+.box1 {
+    height: 300px;
+    width: 50%;
+}
+
+.box2:hover {
+    background-color: steelblue;
+    color: white;
+    border-color: white;
+}

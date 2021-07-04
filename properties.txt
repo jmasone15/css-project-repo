@@ -1,0 +1,10 @@
+Important properties for you to remember.
+
+color
+background-color
+display
+padding
+border
+margin
+width
+height
