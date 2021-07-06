@@ -24,11 +24,14 @@ body {
     width: 100%;
     background-color: #2ddf5c;
     padding: 8px 16px;
-    display: inline-block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
 
 .main-header > div {
-    display: inherit;
+    display: inline-block;
     vertical-align: middle;
 }
 
@@ -40,7 +43,7 @@ body {
 }
 
 .main-nav {
-    display: inherit;
+    display: inline-block;
     text-align: right;
     vertical-align: middle;
     width: calc(100% - 74px);
