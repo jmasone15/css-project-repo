@@ -87,9 +87,25 @@ body {
     border: none;
 }
 
+#product-overview {
+    margin-top: 40px;
+    position: relative;
+}
+
+#product-overview h1 {
+    position: absolute;
+    left: 16px;
+    bottom: 0;
+}
+
 .plan__list {
     width: 80%;
     margin: auto;
+    text-align: center;
+}
+
+.section-title {
+    color: #2ddf5c;
     text-align: center;
 }
 
@@ -202,11 +218,6 @@ body {
     color: white;
     font-weight: bold;
     font-size: 20px;
-}
-
-.section-title {
-    color: #2ddf5c;
-    text-align: center;
 }
 
 .main-footer {
