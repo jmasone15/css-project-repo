@@ -1,0 +1,40 @@
+CSS Class Selectors: {
+    You can add multiple classes to a single element.
+
+
+    You can target elements by their tag and their class/id. For example: {
+        <a href="#" class="active">
+        a.active {
+            color: green;
+        }
+    }
+
+
+    The order in which you set classes to an element (class="class1 class2") is not important. What is important is the order the classes are written in the CSS file.
+    For an element with two classes, the class that is defined at the lowest point in the css file will be given priority over the other class or classes.
+
+
+    For example {
+        Let's say I have a paragraph tag with the classes "big-red-text" and "small-red-text".
+
+            <p class="big-red-text small-red-text">I am the text.</p>
+
+        In the css file, the classes are defined as following {
+            body {
+                font-family: sans-serif;
+            }
+
+            .big-red-text {
+                color: red;
+                font-size: 30px;
+            }
+
+            .small-red-text {
+                color: red;
+                font-size: 10px;
+            }
+        }
+
+        The applied style to the <p> tag will be a red text color and a font size of 10px because the class "small-red-text" is defined after the class "big-red-text".
+    }
+}
