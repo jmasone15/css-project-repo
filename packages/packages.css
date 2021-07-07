@@ -3,7 +3,8 @@
 }
 
 .background {
-	background: url("../images/plans-background.jpg");
+	background: url("../images/plans-background.jpg") center/cover;
+	filter: grayscale(40%);
 	width: 100%;
 	height: 100%;
 	position: fixed;
@@ -22,7 +23,7 @@
 .package:hover, .package:active {
 	border-color: #ff5454;
 	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-	transform: scale(1.02);
+	transform: scaleY(1.02);
 }
 
 .package-item {
